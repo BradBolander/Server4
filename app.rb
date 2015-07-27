@@ -12,3 +12,11 @@ end
 get '/services' do
   erb :services
 end
+
+get '/faqs' do
+  erb :faqs
+end
+
+get '/products' do
+  erb :products
+end
